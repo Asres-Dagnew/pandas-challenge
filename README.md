@@ -59,15 +59,17 @@ Use the per_school_summary DataFrame to create a new DataFrame called type_summa
 This new DataFrame should show school performance based on the "School Type".
 
 ## Summary of the Analysis
-The district summary data frame shows that there are 15 schools with a total enrollment of 39,170 students. It also reveals that the percentage of students passing reading is higher than those passing math, suggesting that students generally perform better in reading than in math.
+The district summary DataFrame shows that there are 15 schools with a total enrollment of 39,170 students. It also reveals that the percentage of students passing reading is higher than those passing math, suggesting that students generally perform better in reading than in math.
 
-The school summary data frame shows that of the 15 schools, 7 are district schools and 8 are charter schools. The per school summary data frame further provides the total budget allocated to each school. According to the analysis, Bailey High School allocated the highest budget, while Holden High School allocating the lowest. In terms of budget per student, Huang High School allocated the most per student ($655), whereas Wilson allocated the least ($578). The summary data frame also demonstrates that students in schools with higher budgets per student tend to perform better in both reading and math compared to those in schools with lower budgets per student. Regarding school types, charter schools allocated more budget per student than district schools. Conversely, district schools had a higher total student enrollment than charter schools.
+The school summary DataFrame shows that of the 15 schools, 7 are district schools and 8 are charter schools. The per school summary DataFrame further provides the total budget allocated to each school. According to the analysis, Bailey High School allocated the highest budget, while Holden High School allocating the lowest. In terms of budget per student, Huang High School allocated the most per student ($655), whereas Wilson allocated the least ($578). The summary DataFrame also demonstrates that students in schools with higher budgets per student tend to perform better in both reading and math compared to those in schools with lower budgets per student. Regarding school types, charter schools allocated more budget per student than district schools. Conversely, district schools had a higher total student enrollment than charter schools.
 
-The top/bottom school summary data frame reveals that charter schools dominated the highest performing schools in all metrics (average, percentage, and overall reading and math scores), while district schools dominated the lowest performing schools.
+The top/bottom school summary DataFrame reveals that charter schools dominated the top performing schools in all metrics (average, percentage, and overall reading and math scores), while district schools dominated the bottom performing schools.
 
 ## Conclusions
+Based on the analysis, the following two trends are evident:
+ 
 1. The spending summary indicates that schools with higher spending per student typically have higher average math and reading scores as well as higher percentages of students passing reading and math. These schools also tend to have better academic performance. This implies that better academic performance may result from higher spending per student.
-2. According to the school size summary, smaller schools—those with fewer than 1000 students—generally have higher passing rates and average math and reading scores than larger ones. This suggests that, perhaps because of things like smaller class sizes and more individualized attention for each student, smaller schools may offer a more favorable learning environment.
+2. According to the school size summary, smaller schools—those with fewer than 1000 students—generally have higher passing rates in average math and reading scores than larger ones. This suggests that, perhaps because of things like smaller class sizes and more individualized attention for each student, smaller schools may offer a more favorable learning environment.
 These findings can inform future policy makers by shedding light on the ways in which various elements, like school size and spending per student, can affect academic performance.
 
 ## References
